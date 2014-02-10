@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aanmelden</title>
+    <meta charset="UFT-8">
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Stages en projecten aanmelden" />
+    <meta name="author" content="Michiel Willemsen" />
+    <meta name="keywords" content="zoekterm1, zoekterm2, ..." />
+    <!-- link href="style.css" media="screen" rel="stylesheet" type="text/css" / -->
+</head>
+<body>
+    <header>
+    	<nav></nav>
+    </header>
+    <section>
+        <header>
+            <h1>Aanmelden</h1>
+        </header>
+	    <article>
+            <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+            Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+            <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+            Voor vragen of opmerkingen kunt u contact <a href="">contact</a>met ons op.</p>
+        </article>
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
