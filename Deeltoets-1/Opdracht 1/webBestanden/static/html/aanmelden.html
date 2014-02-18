@@ -27,21 +27,45 @@
             Voor vragen of opmerkingen kunt u contact <a href="">contact</a>met ons op.</p>
         </article>
         
-        <form class="contactform" method="post" action="static/php/index.php">
-            <p>Contactgegevens:</p>
-            <input id="naam" name="naam" type="text" placeholder="Naam" >
-            <input id="bedrijf" name="bedrijf" type="text" placeholder="Bedrijf">
-            <input id="adres" name="adres" type="text" placeholder="Adres">
-            <input id="postcode" name="poscode" type="text" placeholder="Postcode">
-            <input id="plaats" name="plaats" type="text" placeholder="Plaats">
-            <input id="telefoon" name="telefoon" type="number" placeholder="Telefoon">
-            <input id="e-mail" name="e-mail" type="email" placeholder="E-mail">
-        </form>
-
-        <form class="contactform" method="post" action="static/php/index.php">
-            <p>Ik wil mijn aanmelden:</p>
-            <input id="submitP" name="submit" type="submit" value="Voor een project">
-            <input id="submitS" name="submit" type="submit" value="Als stagebedrijf">
+        <form>
+            <fieldset>
+                <p>Contactgegevens:</p>
+                <ul>
+                    <li>
+                        <label for="Naam">Naam:</label>
+                        <input id="Naam" type="text" placeholder="John Doe" >
+                    </li>
+                    <li>
+                        <label for="Bedrijf">Bedrijf:</label>
+                        <input id="Bedrijf" type="text" placeholder="Naam bedrijf">
+                    </li>
+                    <li>
+                        <label for="Adres">Adres:</label>
+                        <input id="Adres" type="text" placeholder="Saxofoonweg 63">
+                    </li>
+                    <li>
+                        <label for="Postcode">Postcode:</label>
+                        <input id="Postcode" type="text" placeholder="1234XX">
+                    </li>
+                    <li>
+                        <label for="Plaats">Plaats:</label>
+                        <input id="Plaats" type="text" placeholder="Amsterdam">
+                    </li>
+                    <li>
+                        <label for="Telefoon">Telefoon:</label>
+                        <input id="Telefoon" type="number" placeholder="xxxxxxxx">
+                    </li>
+                    <li>
+                        <label for="Email">E-mail:</label>
+                        <input id="Email" type="email" placeholder="uw e-mail adres">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <p>Ik wil mijn aanmelden:</p>
+                <input type="submit" value="Voor een project">
+                <input type="submit" value="Als stagebedrijf">
+            </fieldset>
         </form>
 
         <table>
